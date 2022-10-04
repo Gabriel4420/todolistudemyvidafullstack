@@ -1,0 +1,26 @@
+@import '../../../../../dist/scss/variables.scss';
+
+:host {
+  display: flex;
+  justify-content: center;
+  margin-top: -1.25rem;
+
+  input {
+    width: 80%;
+    border: none;
+    background-color: $primary;
+    border-radius: 1.625rem;
+    font-size: 1rem;
+    color: $terciary;
+
+    
+    padding: 0.625rem;
+    padding-left: 1.625rem;
+    box-sizing: border-box;
+    
+    &::placeholder {
+      color: $terciary;
+      text-transform: capitalize;
+    }
+  }
+}
